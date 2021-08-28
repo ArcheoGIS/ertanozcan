@@ -7,12 +7,13 @@
     color: #ffffff;
 }
 
-Body {
-    background-image: url(background.png);
+#backgroundBody {
     background-repeat: no-repeat;
-    background-position:center center;
-    background-attachment:fixed;
-    background-color: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-image: url(background.png);
+    background-size: cover;
+    background-color:#464646
 }
 
 .fa {
